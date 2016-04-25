@@ -1,5 +1,4 @@
-[![wercker status](https://app.wercker.com/status/3e97e062ebe3fba441d95cd4cf0c55a9/m "wercker status")](https://app.wercker.com/project/bykey/3e97e062ebe3fba441d95cd4cf0c55a9)
-# Quantum MK Firmware (ymotongpoo fork)
+# Quantum MK Firmware (ymotongpoo -> nabetama fork)
 
 This is a keyboard firmware based on the [tmk_keyboard firmware](http://github.com/tmk/tmk_keyboard) with some useful features for Atmel AVR controllers, and more specifically, the [OLKB product line](http://olkb.co) and the [ErgoDox EZ](http://www.ergodox-ez.com) keyboard.
 
