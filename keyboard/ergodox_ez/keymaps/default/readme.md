@@ -12,6 +12,9 @@
 
 ## Changelog
 
+* Apr 25, 2016:
+  * nabetama changed a layout of Layer 0.
+
 * Apr 24, 2016:
   * ymotongpoo totally changed its default from original.
 
