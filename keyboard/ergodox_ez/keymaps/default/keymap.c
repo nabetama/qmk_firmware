@@ -21,7 +21,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+------| LGui |           | Meh  |------+------+------+------+------+--------|
  * | LShift |   Z  |   X  |   C  |   V  |   B  |      |           |      |   N  |   M  |  ,<  |  .>  |  /?  | RShift |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
- *   |  L1  | paste|AltShf| App  | LGui |                                       | RGui | RAlt |   [  |   ]  | ~L1  |
+ *   |  Meh | paste|AltShf| App  | LGui |                                       | RGui | RAlt |   [  |   ]  | ~L1  |
  *   `----------------------------------'                                       `----------------------------------'
  *                                      ,--------------.          ,-------------.
  *                                      | Left  | Right|          | Down | Up   |
@@ -40,7 +40,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LCTL,        KC_A,         KC_S,   KC_D,   KC_F,   KC_G,
         KC_LSFT,        KC_Z,         KC_X,   KC_C,   KC_V,   KC_B,   KC_LGUI,
 
-        TO(SYMB,1),     LGUI(KC_V),   LALT(KC_LSFT), ALT_T(KC_APP),KC_LGUI,
+        MEH_T(KC_NO),     LGUI(KC_V),   LALT(KC_LSFT), ALT_T(KC_APP),KC_LGUI,
 
                                                KC_LEFT,       KC_RGHT,
                                                               KC_HOME,
