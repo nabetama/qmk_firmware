@@ -4,10 +4,10 @@
 ### [Layer 0](http://goo.gl/2bYSdj)
 ![Layer 0](keyboard-layout-L0.png)
 
-### [Layer 1](http://goo.gl/rnyQHA)
+### [Layer 1](http://goo.gl/nwv4Bg)
 ![Layer 1](keyboard-layout-L1.png)
 
-### [Layer 2](http://goo.gl/oaVnRZ)
+### [Layer 2](http://goo.gl/pRvEpo)
 ![Layer 2](keyboard-layout-L2.png)
 
 ## Changelog
