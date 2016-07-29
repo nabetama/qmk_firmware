@@ -21,7 +21,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+------|  `~  |           |  B   |------+------+------+------+------+--------|
  * | LShift |   Z  |   X  |   C  |   V  |   B  |      |           |      |   N  |   M  |  ,<  |  .>  |  /?  | RShift |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
- *   |  Meh | paste|AltShf| App  | LGui |                                       | RGui | RAlt |   [  |   ]  | ~L1  |
+ *   |  Meh | paste|AltShf| App  | LGui |                                       | RGui | RAlt |   [  |   ]  | ~L2  |
  *   `----------------------------------'                                       `----------------------------------'
  *                                      ,--------------.          ,-------------.
  *                                      | Left  | Right|          | Down | Up   |
@@ -51,7 +51,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                           KC_H,   KC_J,   KC_K,   KC_L,   KC_SCLN,          KC_QUOT,
              KC_B,        KC_N,   KC_M,   KC_COMM,KC_DOT, KC_SLSH,          KC_RSFT,
 
-                                  KC_RGUI,  KC_RALT, KC_LBRC, KC_RBRC, KC_FN1,
+                                  KC_RGUI,  KC_RALT, KC_LBRC, KC_RBRC, KC_FN2,
 
              KC_DOWN,        KC_UP,
              KC_PGUP,
@@ -146,6 +146,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 const uint16_t PROGMEM fn_actions[] = {
     [1] = ACTION_LAYER_TAP_TOGGLE(SYMB)                // FN1 - Momentary Layer 1 (Symbols)
+    [2] = ACTION_LAYER_TAP_TOGGLE(WINDOWS)             // FN1 - Momentary Layer 1 (Symbols)
 };
 
 const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt)
