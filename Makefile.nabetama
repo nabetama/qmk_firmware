@@ -1,0 +1,2 @@
+nabetama-iris:
+	make iris:nabetama:avrdude

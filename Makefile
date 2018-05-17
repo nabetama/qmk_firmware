@@ -604,3 +604,4 @@ BUILD_DATE := NA
 endif
 
 include $(ROOT_DIR)/testlist.mk
+include $(ROOT_DIR)/Makefile.nabetama
