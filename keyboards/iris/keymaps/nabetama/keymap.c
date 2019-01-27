@@ -33,6 +33,7 @@ enum custom_keycodes {
 #define KC_RVAI RGB_VAI
 #define KC_RVAD RGB_VAD
 
+// @see https://docs.qmk.fm/#/keycodes
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_QWERTY] = LAYOUT_kc(
