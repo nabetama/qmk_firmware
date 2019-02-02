@@ -88,9 +88,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
         ESC,    F1,    F2,    F3,    F4,    F5,                     F6,    F7,    F8,    F9,   F10,   EQL,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-       MINS,   EQL,  LCBR,  RCBR,  PIPE,   GRV,                   MINS,   EQL,  LCBR,  RCBR,  PIPE,   GRV,\
+       MINS,  LBRC,  RBRC,  LBRC,  RBRC, XXXXX,                   MINS,   EQL,  LCBR,  RCBR,  PIPE,   GRV,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-       UNDS,  PLUS,  LBRC,  RBRC,  BSLS,  TILD,                   UNDS,  PLUS,  LBRC,  RBRC,  BSLS,  TILD,\
+       UNDS,  LBRC,  RBRC,  LBRC,  RBRC, XXXXX,                   UNDS,  PLUS,  LBRC,  RBRC,  BSLS,  TILD,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
                                   LALT,   LGUI,   SPC,      ENT, LOWER, RAISE \
                               //`--------------------'  `--------------------'
