@@ -20,8 +20,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifndef CONFIG_H
 #define CONFIG_H
 
+// 左右間の通信間隔の最小値(ms)　下げるとマスタとスレーブ間の遅延が減る
 #define BLE_NUS_MIN_INTERVAL 30
+// 左右間の通信間隔の最大値(ms)　下げるとマスタとスレーブ間の遅延が減る
 #define BLE_NUS_MAX_INTERVAL 60
+// 端末との通信間隔の最大値(ms)　下げると端末とマスタ間の遅延が減る
+#define BLE_HID_MAX_INTERVAL 60
+// 端末との通信パラメータ　下げると消費電力が増える。HID_INTERVALに反比例させると良い？　デフォルトは4
+#define BLE_HID_SLAVE_LATENCY 4
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xEC59
